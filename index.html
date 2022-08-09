@@ -2,44 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <!-- 
+    Feel free to remove these styles or customise in your own stylesheet 👍 
+  -->
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <main>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
+    <header>
+      <h4>Reliable, efficient delivery</h4>
+      <h3>Powered by Technology</h3>
+      <h6>Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</h6>
+      <aside>
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      Coded by <a href="https://github.com/traez">Trae Zeeofor</a>.
+      </aside>
+    </header>
+
+    <section class="supervisor">
+      <h4>Supervisor</h4>
+      <h6>Monitors activity to identify project roadblocks</h6>
+      <div class="icon-supervisor"><img src="images/icon-supervisor.svg" alt="icon-supervisor" id="icon-supervisor"/></div>
+    </section>
+
+    <div class="team-karma">
+      <section class="team-builder">
+        <h4>Team Builder</h4>
+        <h6>Scans our talent network to create the optimal team for your project</h6>
+      <div class="icon-team-builder"><img src="images/icon-team-builder.svg" alt="icon-team-builder" id="icon-team-builder"/></div>
+      </section>
+
+      <section class="karma">
+        <h4>Karma</h4>
+        <h6>Regularly evaluates our talent to ensure quality</h6>
+        <div class="icon-karma"><img src="images/icon-karma.svg" alt="icon-karma" id="icon-karma"/></div>
+      </section>
+    </div>
+
+    <section class="calculator">
+      <h4>Calculator</h4>
+      <h6>Uses data from past projects to provide better delivery estimates</h6>
+      <div class="icon-karma"><img src="images/icon-calculator.svg" alt="icon-calculator" id="icon-calculator"/></div>
+    </section>
+
+  </main>
 </body>
 </html>
